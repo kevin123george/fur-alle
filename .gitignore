@@ -1,0 +1,29 @@
+# Logs
+.logs/
+
+# ETL
+etl/.venv/
+etl/__pycache__/
+etl/**/__pycache__/
+etl/.env
+data/raw/
+
+# Spring Boot
+api/target/
+api/.mvn/wrapper/maven-wrapper.jar
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/public/posters/
+
+# IDE
+.idea/
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+*.rsrc
+**/*.rsrc
